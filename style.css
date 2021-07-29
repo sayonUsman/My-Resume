@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  color: aqua;
+}
+
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: teal;
+  color: black;
+}
+
+#part1 {
+  background-image: url("images/photo-pencil.jpeg");
+  color: rgb(0, 255, 0);
+}
+
+#left-side {
+  padding: 10px;
+  float: left;
+}
+
+#profile-pic {
+  max-width: 200px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+#profile-pic:hover {
+  animation-name: profile-pic;
+  animation-duration: 4s;
+}
+
+@keyframes profile-pic {
+  0% {
+    max-width: 200px;
+  }
+
+  50% {
+    max-width: 250px;
+    border-color: rgb(0, 255, 0);
+  }
+
+  100% {
+    max-width: 200px;
+  }
+}
+
+#right-side {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  font-style: italic;
+  padding: 110px 15px 10px 10px;
+  float: left;
+}
+
+#right-side h1:hover {
+  color: rgb(0, 255, 0);
+  font-style: normal;
+}
+
+#right-side h2:hover {
+  color: rgb(0, 255, 0);
+  font-style: normal;
+}
+
+.div-cleaner {
+  clear: both;
+}
+
+.left-side2 {
+  background-color: rgb(30, 3, 49);
+  color: rgb(255, 255, 255);
+  border: 10px solid white;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bolder;
+  padding: 10px 10px 10px 15px;
+}
+
+.left-side2 h1:hover {
+  color: rgb(0, 255, 0);
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.right-side2 {
+  background-color: white;
+  padding: 15px;
+}
+
+.right-side2 h1 {
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.right-side2 h1:hover {
+  color: rgb(255, 104, 4);
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.list {
+  font-size: x-large;
+  font-weight: bold;
+  padding: 10px 10px 0px 75px;
+}
+
+.list-hover a {
+  color: black;
+}
+
+.list-hover a:hover {
+  color: blue;
+  font-style: italic;
+}
+
+.list-hover1:hover {
+  color: rgb(255, 104, 4);
+  font-style: italic;
+}
+
+#part3 {
+  background-color: rgb(41, 36, 36);
+  color: rgb(255, 104, 4);
+  text-align: center;
+}
+
+#footer h1 {
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+  padding-bottom: 50px;
+}
+
+#footer h1:hover {
+  color: white;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+#footer a {
+  color: rgb(21, 255, 0);
+  font-size: large;
+  font-weight: bold;
+  margin: 5px;
+  border: 5px solid white;
+  border-radius: 15px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: white;
+  font-style: italic;
+  border: 5px solid rgb(21, 255, 0);
+}
+
+#footer p {
+  font-size: large;
+  padding-top: 40px;
+}
